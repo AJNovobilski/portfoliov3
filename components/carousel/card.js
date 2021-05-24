@@ -4,11 +4,16 @@ import { useSpring, animated } from 'react-spring'
 
 export default function CARD(props){
     
+var github =     <a target="_blank" href={props.github}><button class="bg-cyan-500 hover:bg-blue-700 text-white font-bold py-2 xs:px-2 px-2 rounded float-right hover:bg-cyan-700">
+  Github 
+</button>
+</a>
 
-
+if (props.github === "")
+{github =    <div></div>}
 
 return(
-    <div className="container mx-auto p-5 xs:p-2 relative rounded-lg shadow-lg xs:w-48 sm:w-48 w-72 transition duration-500 ease-in-out bg-blue-600  transform hover:-translate-y-1 hover:scale-110">
+    <div className="container mx-auto  xs:p-2 relative rounded-lg shadow-lg xs:w-56 sm:w-48 w-72 transition duration-500 ease-in-out bg-blue-600  transform hover:-translate-y-1 hover:scale-110 border-2">
 
 <img className="w-72" src={props.img}></img>
 <div class="bg-white text-left mx-auto p-2">
@@ -22,12 +27,9 @@ return(
    <div className="grid grid-col-1">
 
 <div class="pt-4">
-   <a href={props.github}><button class="bg-cyan-500 hover:bg-blue-700 text-white font-bold py-2 xs:px-2 px-2 rounded float-right hover:bg-cyan-700">
-  Github 
-</button>
-</a>
+{github}
 
-<a href={props.link}><button class="bg-cyan-500 hover:bg-blue-700 text-white font-bold py-2 xs:px-2 px-4 rounded hover:bg-cyan-700">
+<a target="_blanks" href={props.link}><button class="bg-cyan-500 hover:bg-blue-700 text-white font-bold py-2 xs:px-2 px-4 rounded hover:bg-cyan-700">
   Live 
 </button>
 </a>

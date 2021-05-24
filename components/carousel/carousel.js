@@ -45,18 +45,19 @@ export default function CAROUSEL() {
 }
 
 
+
   return (
     <div>
     <div className="bg-bluegray-50">
-      <div className="grid grid-cols-5">
+      <div className="grid grid-cols-5 grid-flow-col">
         <div className="mx-auto text-center order-1">
-          <img onClick={handleprevious} className="xs:w-12 transform rotate-180 mt-36  transform hover:-translate-y-1 hover:scale-110 duration-300" src="https://img.icons8.com/flat-round/64/000000/arrow-right.png"/>
+          <img onClick={handleprevious} className="xs:w-8 transform rotate-180 mt-36  transform hover:-translate-y-1 hover:scale-110 duration-300" src="https://img.icons8.com/flat-round/64/000000/arrow-right.png"/>
           </div>
         <div className="mx-auto text-center order-3 ">
-        <img onClick={handlenext} className="mt-36  xs:w-12 transform hover:-translate-y-1 hover:scale-110 duration-300" src="https://img.icons8.com/flat-round/64/000000/arrow-right.png"/>
+        <img onClick={handlenext} className="mt-36 absoulte xs:ml-8  xs:w-8 transform hover:-translate-y-1 hover:scale-110 duration-300" src="https://img.icons8.com/flat-round/64/000000/arrow-right.png"/>
 
         </div>
-        <div className="mx-auto text-center order-2 col-span-3 mt-12">
+        <div className="mx-auto text-center order-2  col-span-3 mt-12 ">
         <animated.div style={props}>
           <CARD
             img = {carddata[numcount].image}

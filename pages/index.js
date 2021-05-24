@@ -2,12 +2,11 @@ import PAGE from "../components/PAGE";
 import SERVICESECTION from "../components/servicesection/SERVICESECTION";
 import desktopgif from "../assets/sunsetcropped.gif";
 import CAROUSEL from "../components/carousel/carousel"
+import FOOTER from "../components/footer/footer"
 
 export default function Home() {
   return (
     <div>
-      <main id="page-wrap">
-        <div id="outer-container">
           <PAGE
             heroclass=" pattern1"
             image={desktopgif}
@@ -15,7 +14,6 @@ export default function Home() {
             subheading="A collection of 5+ years of web dev experience."           title=""
           ></PAGE>
 
-        </div>
 <section id="skills">
         <div className="bg-gradient-to-r from-amber-50 via-cyan-50 to-red-50">
           <h1 className="p-6 text-4xl text-center align-middle">
@@ -76,7 +74,7 @@ export default function Home() {
 
 
         </section>
-      </main>
-    </div>
+      <FOOTER></FOOTER>
+      </div>
   );
 }
