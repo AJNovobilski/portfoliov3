@@ -22,7 +22,7 @@ console.log('step2')
 
 var textgif = <h2>Download My Resume</h2>
 var stylegif = "text-center bg-bluegray-200 hover:bg-transparent hover:text-white text-black font-bold py-2 px-4 rounded sm:mt-12 xs:mt-12 duration-500	"
-var buttongif =  <button onClick={myfunction} class={stylegif}>{textgif}</button>
+var buttongif = <a href="./resume.pdf" download> <button onClick={myfunction} class={stylegif}>{textgif}</button> </a>
 
 
 if (state === 'clicked')

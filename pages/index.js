@@ -1,6 +1,7 @@
 import PAGE from "../components/PAGE";
 import SERVICESECTION from "../components/servicesection/SERVICESECTION";
 import desktopgif from "../assets/sunsetcropped.gif";
+import CAROUSEL from "../components/carousel/carousel"
 
 export default function Home() {
   return (
@@ -69,6 +70,11 @@ export default function Home() {
             </div>
           </div>
         </div>
+        </section>
+        <section>
+<CAROUSEL></CAROUSEL>
+
+
         </section>
       </main>
     </div>
