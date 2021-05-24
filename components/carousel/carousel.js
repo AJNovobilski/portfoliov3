@@ -46,40 +46,43 @@ export default function CAROUSEL() {
 
 
   return (
+    <div>
     <div className="bg-bluegray-50">
-      <div className="grid grid-cols-5 ">
+      <div className="grid grid-cols-5">
         <div className="mx-auto text-center order-1">
-          <button onClick={handleprevious} class="bg-cyan-500 hover:bg-cyan-700 text-white font-bold py-2 px-4 rounded">
-            Previous
-          </button>
-        </div>
+          <img onClick={handleprevious} className="xs:w-12 transform rotate-180 mt-36  transform hover:-translate-y-1 hover:scale-110 duration-300" src="https://img.icons8.com/flat-round/64/000000/arrow-right.png"/>
+          </div>
         <div className="mx-auto text-center order-3 ">
-        <button onClick={handlenext} class="bg-cyan-500 hover:bg-cyan-700 text-white font-bold py-2 px-4 rounded">
-  Next
-</button>
+        <img onClick={handlenext} className="mt-36  xs:w-12 transform hover:-translate-y-1 hover:scale-110 duration-300" src="https://img.icons8.com/flat-round/64/000000/arrow-right.png"/>
+
         </div>
-        <div className="mx-auto text-center order-2 col-span-3">
+        <div className="mx-auto text-center order-2 col-span-3 mt-12">
         <animated.div style={props}>
           <CARD
+            img = {carddata[numcount].image}
             title={carddata[numcount].title}
-            desc="asdfaoij"
-            tag="web scraping"
-            date="2-2-2020"
+            desc={carddata[numcount].desc}
+            tag={carddata[numcount].tag}
+            date={carddata[numcount].date}
+            github={carddata[numcount].github}
+            link = {carddata[numcount].link}
           ></CARD>
           </animated.div>
         </div>
       </div>
       <div className="grid grid-cols-3">
-        <div className="mx-auto text-center order-1 sm:invisible xs:invisible text-center">
+        <div className="invisible mx-auto text-center order-1 sm:invisible xs:invisible text-center">
           Next{" "}
         </div>
-        <div className="mx-auto text-center order-2 sm:invisible xs:invisible">
+        <div className="  mx-auto text-center order-2 sm:invisible xs:invisible">
           {" "}
         </div>
-        <div className="mx-auto text-center order-3 sm:invisible xs:invisible text-center">
+        <div className=" invisible mx-auto text-center order-3 sm:invisible xs:invisible text-center">
           Next{" "}
         </div>
       </div>
     </div>
+    </div>
+
   );
 }

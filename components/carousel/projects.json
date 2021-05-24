@@ -2,43 +2,47 @@
   {
     "title": "Wanderlist",
     "tag": "Web Scraping",
-    "desc": "asfdasdfjaidofji",
-    "date": "2-02-2020"
+    "desc": "Location based music app that finds local artists near you.",
+    "date": "Feb 24th 2021",
+    "image": "http://ajnportfolio.com/static/media/wanderlist.14c25e74.png",
+    "link": "https://arcane-cliffs-65645.herokuapp.com/",
+    "github": "https://github.com/joshuapribek/Project3"
+    
   },
   {
-    "title": "Wanderlist2",
-    "tag": "Web Scraping",
-    "desc": "asfdasdfjaidofji",
-    "date": "2-02-2020"
+    "title": "Trading Card Autolister",
+    "tag": "Node JS",
+    "desc": "This unique app is built on the NodeJs framework and uses Inquirer.js to prompt the user for basic info. Axios calls Scryfall api to return live prices for cards, image, set and title data. Then after each card is inputed it outputs a csv file that ebay can read through its bulk listing reader.",
+    "date": "Feb 12th 2021"
   },
   {
-    "title": "Wanderlist3",
-    "tag": "Web Scraping",
-    "desc": "asfdasdfjaidofji",
-    "date": "2-02-2020"
+    "title": "FamilyMarketing.Us",
+    "tag": "HTML/CSS",
+    "desc": "U.S. Family Marketing offers custom websites, branding, and marketing solutions available anytime. When presented with a challenge we strive for excellence and overachieve.",
+    "date": "·Jan 1st 2021"
   },
   {
-    "title": "Wanderlist4",
-    "tag": "Web Scraping",
-    "desc": "asfdasdfjaidofji",
-    "date": "2-02-2020"
+    "title": "ExpungedIt.Com",
+    "tag": "SQL/Javascript",
+    "desc": "Utilizes SurveyJS to create a survey experience for people who need their prior convictions expunged by professional lawyers.    ",
+    "date": "Feb 12th 2021   "
   },
   {
-    "title": "Wanderlist5",
-    "tag": "Web Scraping",
-    "desc": "asfdasdfjaidofji",
-    "date": "2-02-2020"
+    "title": "Offline Budget Tracker",
+    "tag": "Progressive Web App",
+    "desc": "Using smart caching and service workers, you can track a budget offline from anywhere. Download the webpage as an app to your phone and use it.    ",
+    "date": "·Feb 12th 2021    "
   },
   {
-    "title": "Wanderlist6",
-    "tag": "Web Scraping",
-    "desc": "asfdasdfjaidofji",
-    "date": "2-02-2020"
+    "title": "Employee Directory    ",
+    "tag": "React",
+    "desc": "Gathers a list of random employees from a random user API. Sorts and returns a table.    ",
+    "date": "Feb 12th 2021    "
   },
   {
-    "title": "Wanderlist7",
+    "title": "Portfolio",
     "tag": "Web Scraping",
-    "desc": "asfdasdfjaidofji",
-    "date": "2-02-2020"
+    "desc": "Yes, this portfolio is also available on github.",
+    "date": "May 12th 2021   "
   }
 ]
