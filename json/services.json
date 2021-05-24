@@ -1,0 +1,13 @@
+[
+    { "name": "Wanderlist", "desc": "Wanderlist is an app that connects people together through music. The premise of this app was to build a database of famous artists and pinpoint their originating geolocation. Using a web scraper I built a database with spotify links, geolocation, artist names, and pictures. Then by using browser geolocation services you are able to view artists nearby to your location." },
+
+    { "name": "Wanderlist", "desc": "Wanderlist is an app that connects people together through music. The premise of this app was to build a database of famous artists and pinpoint their originating geolocation. Using a web scraper I built a database with spotify links, geolocation, artist names, and pictures. Then by using browser geolocation services you are able to view artists nearby to your location." }
+
+
+
+
+
+
+
+
+]

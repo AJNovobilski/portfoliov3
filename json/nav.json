@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Home",
+    "link": "/",
+    "icon": "https://img.icons8.com/wired/64/000000/home.png"
+  },
+  {
+    "name": "Projects",
+    "link": "/projects",
+    "icon": "https://img.icons8.com/fluent-systems-regular/48/000000/blueprint.png"
+  },
+  {
+    "name": "About",
+    "link": "/about",
+    "icon": "https://img.icons8.com/material-outlined/24/000000/about.png"
+  },
+  {
+    "name": "Github",
+    "link": "https://github.com/anovobilskischool",
+    "icon": "https://img.icons8.com/dotty/80/000000/github.png"
+  },
+  {
+    "name": "LinkedIn",
+    "link": "https://www.linkedin.com/in/aj-novobilski-122296aa/",
+    "icon": "https://img.icons8.com/wired/64/000000/linkedin.png"
+  }
+]
